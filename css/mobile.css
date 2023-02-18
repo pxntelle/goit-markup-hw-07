@@ -1,0 +1,71 @@
+@media screen and (min-width: 768px) {
+    .container {
+      width: 768px;
+    } 
+  }
+
+/* main */
+
+/* .hero {
+    /* background-image: var(--gradient), url(../images/hero-bg-tab.jpg); */
+  } */
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)
+          ),
+          url(../images/people-office\ 1-2.jpg);    }
+  }
+
+  .hero-container {
+    max-width: 396px;
+  }
+
+@media screen and (max-width: 767px) {
+  /*-------------FEATURES----------------*/
+  .features-subtitle {
+    text-align: center;
+  }
+  /*---------------MENU------------------*/
+  .menu-list {
+    max-width: 300px;
+    margin-left: 0;
+    margin-right: auto;
+  }
+  /*--------------CUSTOMERS--------------*/
+  .mini-container.customers-container,
+  .mini-container.footer-container {
+    max-width: 426px;
+  }
+  /*--------------FOOTER-----------------*/
+  .footer-logo,
+  .footer-soc-text,
+  .footer-form-text {
+    justify-content: center;
+  }
+  .footer-form-wrap {
+    width: 100%;
+  }
+  .footer-form {
+    gap: 16px;
+  }
+  .footer-form-btn {
+    margin: 0 auto;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
