@@ -2,6 +2,11 @@
   .container {
     max-width: 428px;
   }
+
+  .mob-menu-wrap,
+  .mob-menu-open {
+    display: none;
+  }
 }
 
 /* header  */

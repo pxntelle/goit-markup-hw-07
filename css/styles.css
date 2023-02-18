@@ -97,12 +97,12 @@ link {
 }
 
 .site-nav .link {
-  display: block;
+  display: none;
   padding-top: 24px;
   padding-bottom: 24px;
 }
 
-.header-nav,
+/* .header-nav,
 .main-nav {
   align-items: center;
 }
@@ -115,7 +115,7 @@ link {
   position: relative;
 
   color: var(--pressed-state);
-}
+} */
 
 .current::after {
   content: "";
