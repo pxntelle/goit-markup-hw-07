@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
     .container {
-      max-width: 768px;
+      width: 768px;
     }
 
     .site-nav .link {
@@ -39,4 +39,70 @@
       .header-contacts .item + .item {
         margin-left: 40px;
       }
+
+
+
+      /* main */
+
+.hero {
+    background: var(--dark);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    max-width: 1440px;
+    min-height: 600px;
+    margin: 0 auto;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/people-office\ 1-2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .hero-header {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    width: 494px;
+    margin: 0 auto 48px;
+  }
+  
+  .hero-button {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1;
+    color: #fff;
+    background-color: var(--primary-brand);
+  
+    display: block;
+    margin: 0 auto;
+    padding: 16px 32px;
+    border: 1px solid transparent;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  
+    transition: background-color var(--transition-duration)
+      var(--transition-timing-function);
+  }
+  
+  .hero-button:active,
+  .hero-button:hover,
+  .hero-button:focus {
+    background-color: var(--pressed-state);
+  }
+  
+  .section-header {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    margin-bottom: 72px;
+  }
   }

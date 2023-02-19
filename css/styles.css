@@ -72,11 +72,11 @@ link {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.container {
+/* .container {
   width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
-}
+} */
 
 .site-nav,
 .header-contacts,
@@ -185,7 +185,7 @@ link {
   color: var(--primary-brand);
 }
 
-@media (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .menu {
     display: none;
   }
@@ -213,11 +213,11 @@ link {
 .hero-header {
   font-family: inherit;
   font-weight: 500;
-  font-size: 56px;
+  font-size: 36px;
   line-height: 1;
   color: #fff;
   text-align: center;
-  width: 494px;
+  max-width: 320px;
   margin: 0 auto 48px;
 }
 
@@ -255,27 +255,37 @@ link {
   margin-bottom: 72px;
 }
 
-.features,
-.illustrations,
-.our-team {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
-.illustrations {
-  padding-top: 0;
-}
-
 /* titles */
+
+/* .features-container {
+  padding: 96 16;
+  align-items: center;
+} */
+
+.list-features {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.list-features:first-child {
+  margin-top: 96px;
+}
+.list-features:last-child {
+  margin-bottom: 96px;
+}
 
 .features-header,
 .team-name,
 .project-header {
   font-family: inherit;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 36px;
   line-height: 1.2;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 /* descriptions */
@@ -287,22 +297,23 @@ link {
   font-size: 16px;
   line-height: 1.5;
   color: var(--text);
+  text-align: center;
 }
 
 /* features */
 
-.list-features .item + .item,
+/* .list-features .item + .item,
 .list-services .item + .item,
 .list-team .item + .item {
   margin-left: 24px;
-}
+} */
 
-.list-features .item {
+/* .list-features .item {
   width: 264px;
-}
+} */
 
 .features-icon {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   width: 264px;
@@ -324,10 +335,32 @@ link {
   align-items: center;
 }
 
+/* what are we doing  */
+
+.illustrations-container {
+  display: none;
+}
+
 /* team */
+
+.section-header {
+  padding-top: 96px;
+}
+
+.list-team {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  justify-content: center;
+  padding-bottom: 128px;
+}
 
 .our-team {
   background-color: var(--light);
+}
+
+.team-name {
+  font-size: 20px;
 }
 
 .team-bio {
@@ -393,15 +426,24 @@ link {
 /* customers */
 
 .customers {
-  padding-top: 130px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .customers .list {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 16px;
+  row-gap: 72px;
+  /* justify-content: space-between;
+  align-items: center; */
 }
+
+/* .customers-item {
+  width: calc((100% - 16px) / 2);
+  height: 88px;
+} */
 
 .customers .item {
   width: 168px;
@@ -437,19 +479,28 @@ link {
 
 .footer {
   background: var(--dark);
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
-.footer-logo-text {
+/* .footer-logo-text {
   margin-right: 120px;
-}
+} */
 
 .footer-logo-accent {
   color: var(--light);
 }
 
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 72px;
+  justify-content: center;
+  align-items: center;
+}
+
 .footer-text {
+  display: block;
   font-family: inherit;
   font-size: 16px;
   line-height: 1.5;
@@ -459,16 +510,13 @@ link {
 }
 
 .social-media-text {
+  text-align: center;
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #fff;
   margin-bottom: 16px;
-}
-
-.footer .container {
-  display: flex;
 }
 
 .social-links {
@@ -498,13 +546,12 @@ link {
 }
 
 .subscribe-form {
-  display: flex;
-  margin-left: 80px;
+  display: block;
 }
 
 .subscribe-label {
   display: block;
-  position: absolute;
+  text-align: center;
 
   font-family: inherit;
   font-weight: 500;
@@ -516,8 +563,7 @@ link {
 
 .subscribe-input {
   display: block;
-  position: relative;
-  top: 40px;
+  margin-bottom: 16px;
 
   width: 264px;
   padding: 8px 16px;
@@ -550,16 +596,16 @@ link {
 }
 
 .subscribe-button {
-  display: flex;
-  position: relative;
-  top: 40px;
-
+  display: block;
+  /* position: relative; */
+  /* top: 40px; */
+  margin-top: 16px;
   width: 165px;
   height: 40px;
-  margin-left: 24px;
-  margin-right: 0px;
-  justify-content: center;
-  align-items: center;
+  /* margin-left: 24px;
+  margin-right: 0px; */
+  margin: 0 auto;
+  padding: 8px 64px 8px 24px;
 
   background-color: var(--primary-brand);
   border: transparent;

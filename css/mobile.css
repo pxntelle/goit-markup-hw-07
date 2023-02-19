@@ -11,7 +11,7 @@
 
 /* header  */
 
-@media (max-width: 480px) {
+/* @media (max-width: 480px) {
   .mob-menu-open {
     display: flex;
     border: none;
@@ -124,7 +124,7 @@
   .mob-soc-icon {
     fill: var(--typical-color);
   }
-}
+} */
 
 /* main */
 
@@ -147,7 +147,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  /*-------------FEATURES----------------*/
+  /* features */
   .features-subtitle {
     text-align: center;
   }
