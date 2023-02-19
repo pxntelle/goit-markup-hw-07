@@ -193,6 +193,10 @@ link {
 
 /* main */
 
+.hero-container {
+  margin: 0 auto;
+}
+
 .hero {
   background: var(--dark);
   padding-top: 188px;
@@ -597,13 +601,9 @@ link {
 
 .subscribe-button {
   display: block;
-  /* position: relative; */
-  /* top: 40px; */
   margin-top: 16px;
   width: 165px;
   height: 40px;
-  /* margin-left: 24px;
-  margin-right: 0px; */
   margin: 0 auto;
   padding: 8px 64px 8px 24px;
 
