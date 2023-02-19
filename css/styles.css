@@ -487,9 +487,9 @@ link {
   padding-bottom: 96px;
 }
 
-/* .footer-logo-text {
-  margin-right: 120px;
-} */
+.footer-logo-text {
+  text-align: center;
+}
 
 .footer-logo-accent {
   color: var(--light);
@@ -600,7 +600,7 @@ link {
 }
 
 .subscribe-button {
-  display: block;
+  display: flex;
   margin-top: 16px;
   width: 165px;
   height: 40px;
