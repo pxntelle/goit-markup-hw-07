@@ -208,8 +208,9 @@ link {
   justify-content: center;
 }
 .menu-open-icon {
-  stroke: var(--dark);
-  border: 3px var(--dark);
+  stroke: 3px var(--dark);
+  fill: var(--dark);
+  color: var(--dark);
 }
 
 .mob-menu-wrap {
