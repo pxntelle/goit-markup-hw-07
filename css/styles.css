@@ -98,6 +98,9 @@ link {
 
 .page-header {
   border-bottom: 1px solid var(--accent);
+  height: 70px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .site-nav .link {
@@ -1121,4 +1124,19 @@ link {
 .send-button:hover,
 .send-button:focus {
   background-color: var(--pressed-state);
+}
+
+.mob-menu-wrap {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 1;
+  background-color: var(--typical-bc);
+  transform: translateX(-100%);
+  transition: transform 0.3s ease-out;
+}
+
+.mob-menu-wrap.is-open {
+  transform: translateX(0%);
 }
