@@ -3,33 +3,32 @@
     max-width: 428px;
   }
 
-  .mob-menu-wrap,
+  /* .mob-menu-wrap,
   .mob-menu-open {
     display: none;
+  } */
+
+  /* main */
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office\ 1-2.jpg);
+      background-position: center;
+      background-size: cover;
+    }
   }
-}
 
-/* main */
-
-@media (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
-  .hero {
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/people-office\ 1-2.jpg);
-    background-position: center;
-    background-size: cover;
+  .hero-container {
+    max-width: 396px;
   }
-}
 
-.hero-container {
-  max-width: 396px;
-}
-
-/* @media screen and (max-width: 767px) {
+  /* @media screen and (max-width: 767px) {
   /* features */
   .features-subtitle {
     text-align: center;
@@ -39,7 +38,8 @@
     max-width: 300px;
     margin-left: 0;
     margin-right: auto;
-  } */
+  }
+  */
 
   /* --------------CUSTOMERS--------------
 
