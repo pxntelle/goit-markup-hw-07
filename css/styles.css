@@ -209,6 +209,7 @@ link {
 }
 .menu-open-icon {
   stroke: var(--dark);
+  border: 3px var(--dark);
 }
 
 .mob-menu-wrap {
@@ -909,7 +910,8 @@ link {
   }
 } */
 
-.modal-button {
+.modal-button,
+.btn-mob-menu-close {
   position: absolute;
 
   width: 24px;
