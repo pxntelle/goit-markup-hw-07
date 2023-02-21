@@ -67,10 +67,10 @@
 
   .hero {
     background: var(--dark);
-    padding-top: 188px;
-    padding-bottom: 188px;
+    padding-top: 112px;
+    padding-bottom: 112px;
     max-width: 1440px;
-    min-height: 600px;
+    height: 436px;
     margin: 0 auto;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
