@@ -11,6 +11,10 @@
     display: flex;
   }
 
+  .page-header {
+    padding-top: 0px;
+  }
+
   .site-nav .link {
     display: block;
     padding-top: 24px;
@@ -20,7 +24,8 @@
   .header-contacts {
     display: flex;
     flex-wrap: wrap;
-    width: 122px;
+    align-items: left;
+    width: 200px;
     margin-left: auto;
     font-weight: 400;
     font-size: 12px;
@@ -216,5 +221,20 @@
   .subscribe-input {
     position: relative;
     top: 40px;
+  }
+
+  /* portfolio */
+
+  /* .all-projects-list .item {
+    width: 356px;
+  } */
+
+  .project-header {
+    font-size: 20px;
+    text-align: start;
+  }
+
+  .project-description {
+    text-align: start;
   }
 }

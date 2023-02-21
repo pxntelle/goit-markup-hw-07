@@ -427,10 +427,20 @@ link {
 .project-header {
   font-family: inherit;
   font-weight: 500;
-  font-size: 36px;
   line-height: 1.2;
   margin-bottom: 8px;
   text-align: center;
+}
+
+.features-header,
+.team-name {
+  font-size: 36px;
+}
+
+@media screen and (max-width: 767px) {
+  .project-header {
+    font-size: 36px;
+  }
 }
 
 /* descriptions */
