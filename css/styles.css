@@ -222,9 +222,7 @@ link {
 }
 
 .icon-hamburger {
-  stroke: 3px var(--dark);
-  fill: var(--dark);
-  color: var(--dark);
+  stroke: var(--dark);
 }
 
 .mob-menu-wrap {
