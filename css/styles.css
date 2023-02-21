@@ -215,6 +215,12 @@ link {
   color: var(--dark);
 }
 
+.charm-menu-hamburger {
+  stroke: 3px var(--dark);
+  fill: var(--dark);
+  color: var(--dark);
+}
+
 .mob-menu-wrap {
   position: fixed;
   top: 0;
