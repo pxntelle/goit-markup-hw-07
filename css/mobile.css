@@ -39,7 +39,8 @@
     margin-left: 0;
     margin-right: auto;
   }
-  */
+
+
 
   /* --------------CUSTOMERS--------------
 
@@ -48,13 +49,22 @@
     max-width: 426px;
   } */
 
-/* footer */
+  /* footer */
 
   .footer-logo,
   .footer-soc-text,
   .footer-form-text {
     justify-content: center;
   }
+
+  /* .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    justify-content: center;
+    align-items: center;
+  } */
+
   .footer-form-wrap {
     width: 100%;
   }
@@ -64,4 +74,7 @@
   .footer-form-btn {
     margin: 0 auto;
   }
+
+
 }
+

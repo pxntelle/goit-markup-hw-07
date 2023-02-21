@@ -3,10 +3,28 @@
     width: 766px;
   }
 
+  .mob-menu-open {
+    display: none;
+  }
+
+  .header-nav {
+    display: flex;
+  }
+
   .site-nav .link {
     display: block;
     padding-top: 24px;
     padding-bottom: 24px;
+  }
+
+  .header-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    width: 122px;
+    margin-left: auto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.3;
   }
 
   .header-nav,
@@ -36,9 +54,9 @@
     border-radius: 2px;
   }
 
-  .header-contacts .item + .item {
+  /* .header-contacts .item + .item {
     margin-left: 40px;
-  }
+  } */
 
   /* main */
 
@@ -116,22 +134,87 @@
 
   .list-features {
     display: flex;
-    width: 264px;
+    flex-wrap: wrap;
+    /* width: 356px; */
     flex-direction: column;
     column-count: 2;
-    column-width: 264px;
-    flex-wrap: wrap;
+    column-width: 356px;
+
     row-gap: 72px;
     column-gap: 24px;
   }
 
+  /* our team */
+  .list-team {
+    row-gap: 64px;
+    column-gap: 24px;
+  }
+
+  /* customers */
+
+  .customers .item {
+    width: 168px;
+  }
+
   /* footer */
+
+  .footer-container {
+    align-items: baseline;
+    justify-content: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 108px;
+    /* margin: 0 auto; */
+  }
+
+  .footer-input {
+    width: 264px;
+    margin-right: 24px;
+  }
+  .footer-form {
+    display: flex;
+    flex-direction: row;
+  }
 
   .footer-text {
     margin-right: 24px;
   }
 
+  .footer-logo-text {
+    text-align: start;
+  }
+
   .social-media-text {
     text-align: left;
+  }
+
+  .subscribe-button {
+    margin-left: 24px;
+    margin-top: 0px;
+    position: relative;
+    top: 40px;
+  }
+
+  .subscribe-form {
+    display: flex;
+
+    /* margin-left: 80px; */
+  }
+
+  .subscribe-label {
+    display: block;
+    position: absolute;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+
+  .subscribe-input {
+    position: relative;
+    top: 40px;
   }
 }

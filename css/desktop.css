@@ -22,7 +22,6 @@
 
   /* titles */
 
-
   .features-header,
   .team-name,
   .project-header {
@@ -90,8 +89,8 @@
     justify-content: center;
     column-gap: 16px;
     row-gap: 72px;
-    /* justify-content: space-between;
-        align-items: center; */
+    justify-content: space-between;
+    align-items: center;
   }
 
   /* footer */
@@ -135,6 +134,8 @@
   .social-links {
     justify-content: space-between;
   }
+
+  /* footer */
 
   .footer .icon-box .link {
     width: 40px;
