@@ -214,7 +214,7 @@ link {
   height: 18px;
 }
 
-.icon-menu {
+/* .icon-menu {
   stroke: 3px var(--dark);
   fill: var(--dark);
   color: var(--dark);
@@ -228,7 +228,7 @@ link {
 
 .icon-hamburger {
   stroke: var(--dark);
-}
+} */
 
 .mob-menu-wrap {
   position: fixed;
@@ -339,6 +339,8 @@ link {
 }
 
 .mob-soc-icon {
+  width: 24px;
+  height: 24px;
   fill: var(--light);
   color: #fff;
 }
