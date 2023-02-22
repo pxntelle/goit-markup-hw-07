@@ -209,6 +209,11 @@ link {
   justify-content: center;
 }
 
+.menu-open-icon {
+  width: 30px;
+  height: 18px;
+}
+
 .icon-menu {
   stroke: 3px var(--dark);
   fill: var(--dark);
