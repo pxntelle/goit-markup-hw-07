@@ -141,7 +141,14 @@
   /* footer */
 
   .footer-container {
+  }
 
+  /* .footer .box {
+    margin-right: 80px;
+  } */
+
+  .subscribe {
+    margin-left: 80px;
   }
 
   /* .footer {
