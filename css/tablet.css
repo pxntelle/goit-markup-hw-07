@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 766px;
+    max-width: 768px;
   }
 
   .mob-menu-open {
@@ -22,9 +22,7 @@
   }
 
   .header-contacts {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: left;
+    display: block;
     width: 120px;
     margin-left: auto;
     font-weight: 400;
@@ -91,7 +89,7 @@
 
   .hero-container {
     margin: 0 auto;
-    max-width: 496px;
+    max-width: 768px;
   }
 
   .hero-header {
@@ -167,6 +165,10 @@
   .list-team {
     row-gap: 64px;
     column-gap: 24px;
+  }
+
+  .our-team {
+    padding-bottom: 104px;
   }
 
   /* customers */

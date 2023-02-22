@@ -14,6 +14,7 @@
   } */
 
   .header-contacts {
+    display: flex;
     flex-direction: row;
     gap: 40px;
     width: 346px;
@@ -21,15 +22,16 @@
 
   /* main */
 
+  .hero {
+    padding-top: 188px;
+    padding-bottom: 188px;
+    height: 600px;
+  }
+
   .features,
-  .illustrations,
   .our-team {
     padding-top: 120px;
     padding-bottom: 120px;
-  }
-
-  .illustrations {
-    padding-top: 0;
   }
 
   /* titles */
