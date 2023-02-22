@@ -433,4 +433,10 @@
     margin-left: 16px;
     color: #fff;
   } */
+
+  /* portfolio */
+
+  .all-projects-list .item {
+    width: calc((100% - 48px) / 3);
+  }
 }
