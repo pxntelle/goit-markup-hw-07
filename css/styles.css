@@ -332,8 +332,11 @@ link {
   align-items: center;
   border-radius: 50%;
   background-color: var(--primary-brand);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  transition: background-color var(--transition-duration)
+  var(--transition-timing-function);
 }
+
 .mob-soc-link:is(:hover, :focus) {
   background-color: var(--pressed-state);
 }
