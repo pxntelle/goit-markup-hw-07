@@ -3,11 +3,23 @@
     max-width: 1158px;
   }
 
-  /* .container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-} */
+  /* header*/
+
+  .header-contact {
+    font-size: 16px;
+  }
+
+  /* .header-contacts .item + .item {
+    margin-left: 40px;
+  } */
+
+  .header-contacts {
+    flex-direction: row;
+    gap: 40px;
+    width: 346px;
+  }
+
+  /* main */
 
   .features,
   .illustrations,
@@ -22,37 +34,28 @@
 
   /* titles */
 
-  .features-header,
-  .team-name,
-  .project-header {
-    font-family: inherit;
+  .features-header {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;
-    margin-bottom: 8px;
   }
 
   /* descriptions */
 
-  .features-description,
-  .team-position,
-  .project-description {
-    font-family: inherit;
+  .features-description {
+    font-weight: 400;
     font-size: 16px;
-    line-height: 1.5;
-    color: var(--text);
   }
 
   /* features */
 
-  .list-features .item + .item,
+  /* .list-features .item + .item,
   .list-services .item + .item,
   .list-team .item + .item {
     margin-left: 24px;
-  }
+  } */
 
   .list-features .item {
-    width: 264px;
+    width: calc((100% - 72px) / 4);
   }
 
   .features-icon {
@@ -136,6 +139,165 @@
   }
 
   /* footer */
+
+  .footer-container {
+
+  }
+
+  /* .footer {
+    background: var(--dark);
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-logo-text {
+    margin-right: 120px;
+  }
+
+  .footer-logo-accent {
+    color: var(--light);
+  }
+
+  .footer-text {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.5;
+    color: var(--accent);
+    margin-top: 16px;
+    width: 264px;
+  }
+
+  .social-media-text {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+
+  .footer .container {
+    display: flex;
+  }
+
+  .social-links {
+    justify-content: space-between;
+  }
+
+  .footer .icon-box .link {
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    padding: 8px;
+  }
+
+  .footer .icon-box:not(:last-child) {
+    margin-right: 16px;
+  }
+
+  .footer .social-links .icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer .icon-box .link:hover,
+  .footer .icon-box .link:focus {
+    background-color: var(--success);
+  }
+
+  .subscribe-form {
+    display: flex;
+    margin-left: 80px;
+  }
+
+  .subscribe-label {
+    display: block;
+    position: absolute;
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 16px;
+  }
+
+  .subscribe-input {
+    display: block;
+    position: relative;
+    top: 40px;
+
+    width: 264px;
+    padding: 8px 16px;
+
+    background-color: transparent;
+    color: var(--light);
+    font-size: 12px;
+    line-height: 2;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    outline: unset;
+
+    transition: border var(--transition-duration)
+      var(--transition-timing-function);
+  }
+
+  .subscribe-input::placeholder {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.6);
+
+    transition: color var(--transition-duration)
+      var(--transition-timing-function);
+  }
+
+  .subscribe-input:focus {
+    border: 1px solid var(--primary-brand);
+  }
+
+  .subscribe-button {
+    display: flex;
+    position: relative;
+    top: 40px;
+
+    width: 165px;
+    height: 40px;
+    margin-left: 24px;
+    margin-right: 0px;
+    justify-content: center;
+    align-items: center;
+
+    background-color: var(--primary-brand);
+    border: transparent;
+    border-radius: 4px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+
+    transition: background-color var(--transition-duration)
+      var(--transition-timing-function);
+  }
+
+  .subscribe-button:hover .subscribe-button:focus {
+    background-color: var(--pressed-state);
+  }
+
+  .submit-icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+    color: #fff;
+  } */
+
+  /* .footer-container:nth-child(odd) {
+    justify-content: space-between;
+  }
 
   .footer .icon-box .link {
     width: 40px;
@@ -263,5 +425,5 @@
     height: 24px;
     margin-left: 16px;
     color: #fff;
-  }
+  } */
 }

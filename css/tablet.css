@@ -143,17 +143,24 @@
     margin: 0 auto;
     padding: 0 15px;
   }
+  .features-description {
+    text-align: start;
+  }
 
   .list-features {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     /* width: 356px; */
-    flex-direction: column;
+    /* flex-direction: column;
     column-count: 2;
     column-width: 356px;
 
-    row-gap: 72px;
+    row-gap: 72px;  */
     column-gap: 24px;
+  }
+
+  .list-features .item {
+    width: calc((100% - 24px) / 2);
   }
 
   /* our team */
@@ -163,6 +170,15 @@
   }
 
   /* customers */
+
+  .customers .list {
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
+    column-gap: 24px;
+    /* justify-content: space-between;
+    align-items: center; */
+  }
 
   .customers .item {
     width: 168px;
@@ -189,6 +205,7 @@
   }
 
   .footer-text {
+    font-weight: 400;
     margin-right: 24px;
   }
 
@@ -232,9 +249,18 @@
 
   /* portfolio */
 
-  /* .all-projects-list .item {
-    width: 356px;
-  } */
+  .portfolio-menu {
+    justify-content: center;
+  }
+
+  .all-projects-list .item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .all-projects-list {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
 
   .project-header {
     font-size: 20px;
